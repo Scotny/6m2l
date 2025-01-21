@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div style="border-bottom: 1px solid #e5e5e5">
+      <header class="container">
+        <div style="display: flex; gap: 5px; align-items: center">
+          <a href=""><img src="./logotop.svg" alt="logo" /></a>
+          <button>Укажите свой адрес</button>
+        </div>
+        <ul>
+          <li><a href="">О нас</a></li>
+          <li><a href="">Меню</a></li>
+          <li><a href="">Акции</a></li>
+          <li><a href="">Филиалы</a></li>
+          <li><a href="">Контакты</a></li>
+          <a href=""><img class="menu" src="./menu.svg" alt="menu" /></a>
+        </ul>
+      </header>
+    </div>
+    <main class="container">
+      <img class="main-img" src="./sale.svg" alt="sale" />
+      <section>
+        <h2>Ceты</h2>
+        <div class="section">
+          <div class="card">
+            <img src="./food1.svg" alt="Qiyqiriq сет" />
+            <h3>Qiyqiriq сет</h3>
+            <p>45 000 сум</p>
+            <button onclick="Price('Qiyqiriq сет', 45000)"><img src="./plus.svg" alt="plus" /></button>
+          </div>
+          <div class="card">
+            <img src="./food2.svg" alt="Снек сет" />
+            <h3>Снек сет</h3>
+            <p>79 000 сум</p>
+            <button onclick="Price('Снек сет', 79000)"><img src="./plus.svg" alt="plus" /></button>
+          </div>
+          <div class="card">
+            <img src="./food3.svg" alt="Классик сет" />
+            <h3>Классик сет</h3>
+            <p>34 000 сум</p>
+            <button onclick="Price('Классик сет', 34000)" ><img src="./plus.svg" alt="plus" /></button>
+          </div>
+          <div class="card">
+            <img src="./food4.svg" alt="Лонгер рингс сет" />
+            <h3>Лонгер рингс сет</h3>
+            <p>45 000 сум</p>
+            <button onclick="Price('Лонгер рингс сет', 45000)"><img src="./plus.svg" alt="plus" /></button>
+          </div>
+          <div class="card">
+            <img src="./food5.svg" alt="Биг сет" />
+            <h3>Биг сет</h3>
+            <p>62 000 сум</p>
+            <button onclick="Price('Биг сет', 62000)"><img src="./plus.svg" alt="plus" /></button>
+          </div>
+          <div class="card">
+            <img src="./food6.svg" alt="Лестер сет" />
+            <h3>Лестер сет</h3>
+            <p>53 000 сум</p>
+            <button onclick="Price('Лестер сет', 53000)"><img src="./plus.svg" alt="plus" /></button>
+          </div>
+          <div class="card">
+            <img src="./food7.svg" alt="Скул сет" />
+            <h3>Скул сет</h3>
+            <p>36 000 сум</p>
+            <button onclick="Price('Скул сет', 36000)"><img src="./plus.svg" alt="plus" /></button>
+          </div>
+          <div class="card">
+            <img src="./food8.svg" alt="Комбо сет Большой" />
+            <h3>Комбо сет Большой</h3>
+            <p>20 000 сум</p>
+            <button onclick="Price('Комбо сет Большой', 20000)"><img src="./plus.svg" alt="plus" /></button>
+          </div>
+          <div class="card">
+            <img src="./food9.svg" alt="Do’stlar 1х" />
+            <h3>Do’stlar 1х</h3>
+            <p>43 000 сум</p>
+            <button onclick="Price('Do’stlar 1х', 43000)"><img src="./plus.svg" alt="plus" /></button>
+          </div>
+          <div class="card">
+            <img src="./food10.svg" alt="Do’stlar 2х" />
+            <h3>Do’stlar 2х</h3>
+            <p>79 000 сум</p>
+            <button onclick="Price('Do’stlar 2х', 79000)"><img src="./plus.svg" alt="plus" /></button>
+          </div>
+          <div class="card">
+            <img src="./food11.svg" alt="Do’stlar 4х" />
+            <h3>Do’stlar 4х</h3>
+            <p>149 000 сум</p>
+            <button onclick="Price('Do’stlar 4х', 149000)"><img src="./plus.svg" alt="plus" /></button>
+          </div>
+          <div class="card">
+            <img src="./food12.svg" alt="Острый Do’stlar 1х" />
+            <h3>Острый Do’stlar 1х</h3>
+            <p>43 000 сум</p>
+            <button onclick="Price('Острый Do’stlar 1х', 43000)"><img src="./plus.svg" alt="plus" /></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div style="border-top: 1px solid #e5e5e5">
+      <footer class="container">
+        <p>2024 Все права защищены</p>
+        <a href=""><img src="./logobot.svg" alt="logo" /></a>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
